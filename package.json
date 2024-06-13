@@ -1,8 +1,7 @@
 {
   "name": "reactjs-calculator-with-tailwind-css",
   "private": true,
-  "version": "0.0.0",
-  "homepage": "https://shrikant9907.github.io/reactjs-calculator-with-tailwind-css",
+  "version": "1.0.0", 
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,8 +9,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "clean": "rm -rf dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
